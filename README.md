@@ -44,7 +44,7 @@ located in this directory. The `<link>` tag will link to our file with an
 `href` attribute, like so:
 
 ```HTML
-<link rel="stylesheet" href="relative path to CSS file">
+<link rel="stylesheet" href="./style.css">
 ```
 
 Links to stylesheets should go at the end of the `<head>` section! Make sure
