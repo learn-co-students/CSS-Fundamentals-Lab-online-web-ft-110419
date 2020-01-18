@@ -3,3 +3,43 @@ body {
   height: 100%;
   margin: 0;
 }
+
+header { /* Every text within the header tag will be aligned ~> center */
+  text-align: center; 
+}
+
+nav a {
+  background-color: rgb(235, 235, 235);
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%; /* Width scales the picture bigger */
+}
+
+#featured-property figcaption {
+  width: 90%;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center; 
+}
+
+#featured-property p {
+  width: 60%;
+  margin-top: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center; 
+}
+
+#details > div {
+  font-weight: bolder;
+  width: 25%;
+  display: block;
+  float: right;
+  background-color: rgb(255, 142, 142);
+  text-align: center;
+}
